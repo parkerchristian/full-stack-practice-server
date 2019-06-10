@@ -2,8 +2,8 @@ language: node
 node_js: node
 services: mongodb
 env: MONGODB_URI=mongodb://localhost:27017/notes
-deploy: 
+deploy:
   provider: heroku
-  app: 
+  app: note-sender
   api_key:
-    secure: 
+    secure: aMQtXfPFCQhcRwFKg+THFjmpQ/67VNNb+joHFPPo49j/u/tQe3esypXWma8cIr26mX85IGlitoMPttAz1S3QRUweUNmpx85TyVyn0SwQXENSXm07AacpUcWlkSESJQHBDCnORaPk7fLZnv3eK+uyzBBvLC2D5L5vlYmCHMdoKnr34mLwcra31Q0+B5w8FepiPHKXZXU8CH2wXmq2l/0cTZaiv1MA6JDjGTJ8gWuaaMEty9NV510zcitC1Yp2osDfdPpEh3JbTzWrPtZxJG0UT5sjaMrCXnmCtxPom8+dz8uh7Suv+XjU44izMCbL+6LYQV2rh8/gR9kyd6qGPyvueWz7AkS1RYyBc0LrKQDI6lndnZ+Pmf1TNwBfUv5Hprc4Tmm3QSEr4bNO0tHUt/aJj96+OlhroawTJE/W55aGOGSy68nVdiWCjjSCAfXw/YxZuwMlO0zpSparGPL3JuyVOP6YHbBczG++XdmCfLpaWChheAz2eckxg8p8hV+GuzxGkz0znLvxfoCyEfutWe/GcxhFm62djil1junU6eyC8mQc/6Kw04SKP2Lv/kvZnzULL8p5ghr7XER2j+2EF8V65L/ztgli/A3SDCxQraZnvl8L8AOn776eptvqxBLt5D9xMYwpSdVNDIOWTR9lMkZ/h3IaN615FStITVUEEbcfYfg=
